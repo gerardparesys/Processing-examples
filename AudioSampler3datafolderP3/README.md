@@ -7,5 +7,3 @@ OK Processing 3.3.5 Raspbian
 OK Processing 2.2.1 Windows  
 
 http://code.compartmental.net/minim/sampler_class_sampler.html
-
-[http://code.compartmental.net/minim/sampler_class_sampler.html](http://code.compartmental.net/minim/sampler_class_sampler.html)
