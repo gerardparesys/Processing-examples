@@ -1,4 +1,4 @@
-Sketch to test Sampler of the "Minim" library
+Processing sketch to test Sampler of the "Minim" library
 
 ![AudioSampler3datafolderP3](AudioSampler3datafolderP3.png)
 
