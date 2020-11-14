@@ -1,4 +1,4 @@
-Sketch to test AudioSample of the "Sound" library
+Processing sketch to test AudioSample of the "Sound" library
 
 ![Texte alternatif](AudioSampleSound2P3.png)
 
