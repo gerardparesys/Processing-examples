@@ -9,4 +9,4 @@ Use the "minim" library.
 OK Processing 3.5.4 MacOS  
 OK Processing 3.5.3 Raspberry Pi OS (Raspbian 10 buster)  
 
-Audio files come from the projects ["Trous de mémoire"](https://guykayser.autoportrait.com/objetconversationnel/trous-de-memoire) "Trous de mémoire" and "Trop près du Loing" of Guykayser.
+Audio files come from the projects ["Trous de mémoire"](https://guykayser.autoportrait.com/objetconversationnel/trous-de-memoire) " and ["On ne se baigne jamais deux fois dans la même rivière"](https://guykayser.autoportrait.com/autoportrait-collec/on-ne-se-baigne-jamais-deux-fois-dans-la-meme-riviere) of Guykayser.
