@@ -9,3 +9,4 @@ Use the "minim" library.
 OK Processing 3.5.4 MacOS  
 OK Processing 3.5.3 Raspberry Pi OS (Raspbian 10 buster)  
 
+Audio files come from the projects "Trous de mémoire" and "Trop près du Loing" of Guykayser.
