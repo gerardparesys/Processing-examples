@@ -15,4 +15,4 @@ and ["On ne se baigne jamais deux fois dans la même rivière"](https://guykayse
 of Guykayser.  
 
 Window Praat:  
-![Texte alternatif](data/FenetrePraat.png)
+![Texte alternatif](PraatWindow.png)
