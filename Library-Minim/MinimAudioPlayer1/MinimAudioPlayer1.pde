@@ -1,6 +1,7 @@
 // MinimAudioPlayer1.pde
 // 23 11 2020
 // Gerard Paresys
+// https://github.com/gerardparesys/Processing-examples
 //
 // OK Processing 3.5.4 + MacOS
 // OK Processing 3.5.3 + Raspberry Pi OS (Raspbian 10 buster)
@@ -13,20 +14,22 @@
 // http://code.compartmental.net/minim/audioplayer_class_audioplayer.html
 // http://www.sojamo.com/libraries/controlP5/reference/controlP5/Slider.html
 // 
-// Bug minim: setBalance = setPan
+// Bug minim: setBalance = setPan with a stereo sound file
+// Bug minim: setBalance and setPan do not work with a mono sound file
 //
 
 import ddf.minim.*;
 import controlP5.*;
 
 // String NomFichierAudio = "Goch-Dwa-CreoleHaitien.mp3";
+// String NomFichierAudio = "Left-Right-Mono.wav";
 String NomFichierAudio = "Left-Right.wav";
 
 color Green = color(0, 255, 0);
 
 AudioPlayer MonPlayer;
 Minim MonMinim;
-ControlP5 cp5;
+ControlP5 Moncp5;
 
 void setup() {
   size(640, 360);
@@ -34,13 +37,13 @@ void setup() {
   textSize(16);
   fill(Green);
 
-  MonMinim = new Minim(this);  // create our Minim object for loading audio
+  MonMinim = new Minim(this);
   MonPlayer = MonMinim.loadFile(NomFichierAudio, 1024);
 
-  cp5 = new ControlP5(this);
+  Moncp5 = new ControlP5(this);
 
-  cp5.addSlider("SliderBalance")
-    .setPosition(180, 160)
+  Moncp5.addSlider("SliderBalance")
+    .setPosition(180, 180)
     .setSize(400, 15)
     .setLabel("Balance")
     .setColorLabel(Green)
@@ -51,11 +54,11 @@ void setup() {
     .setNumberOfTickMarks(51)
     .setColorTickMark(Green)
     ;
-  cp5.getController("SliderBalance").getCaptionLabel().align(ControlP5.LEFT, ControlP5.CENTER).setPaddingX(-80);
-  cp5.getController("SliderBalance").getValueLabel().align(ControlP5.LEFT, ControlP5.CENTER).setPaddingX(-30);
+  Moncp5.getController("SliderBalance").getCaptionLabel().align(ControlP5.LEFT, ControlP5.CENTER).setPaddingX(-80);
+  Moncp5.getController("SliderBalance").getValueLabel().align(ControlP5.LEFT, ControlP5.CENTER).setPaddingX(-30);
 
-  cp5.addSlider("SliderPan")
-    .setPosition(180, 200)
+  Moncp5.addSlider("SliderPan")
+    .setPosition(180, 220)
     .setSize(400, 15)
     .setLabel("Pan")
     .setColorLabel(Green)
@@ -66,11 +69,11 @@ void setup() {
     .setNumberOfTickMarks(51)
     .setColorTickMark(Green)
     ;
-  cp5.getController("SliderPan").getCaptionLabel().align(ControlP5.LEFT, ControlP5.CENTER).setPaddingX(-80);
-  cp5.getController("SliderPan").getValueLabel().align(ControlP5.LEFT, ControlP5.CENTER).setPaddingX(-30);
+  Moncp5.getController("SliderPan").getCaptionLabel().align(ControlP5.LEFT, ControlP5.CENTER).setPaddingX(-80);
+  Moncp5.getController("SliderPan").getValueLabel().align(ControlP5.LEFT, ControlP5.CENTER).setPaddingX(-30);
 
-  cp5.addSlider("SliderGain")
-    .setPosition(180, 240)
+  Moncp5.addSlider("SliderGain")
+    .setPosition(180, 260)
     .setSize(400, 15)
     .setLabel("Gain dB")
     .setColorLabel(Green)
@@ -81,43 +84,46 @@ void setup() {
     .setNumberOfTickMarks(51)
     .setColorTickMark(Green)
     ;
-  cp5.getController("SliderGain").getCaptionLabel().align(ControlP5.LEFT, ControlP5.CENTER).setPaddingX(-80);
-  cp5.getController("SliderGain").getValueLabel().align(ControlP5.LEFT, ControlP5.CENTER).setPaddingX(-30);
+  Moncp5.getController("SliderGain").getCaptionLabel().align(ControlP5.LEFT, ControlP5.CENTER).setPaddingX(-80);
+  Moncp5.getController("SliderGain").getValueLabel().align(ControlP5.LEFT, ControlP5.CENTER).setPaddingX(-30);
 }
 
 void draw() {
   background(0);
   text("Open: " + NomFichierAudio, 20, 30);
-  // text(MonPlayer.getFormat().getChannels() + " channels   " + int(MonPlayer.getFormat().getSampleRate()) + " Hz   " + MonPlayer.getFormat().getSampleSizeInBits() + " bits   " + MonPlayer.length() + " s", 20, 50);
   text(float(int((MonPlayer.position())/100.0)) / 10 + " sec", 560, 50);
   text(MonPlayer.getFormat().getChannels() + " channels   " + int(MonPlayer.getFormat().getSampleRate()) + " Hz   " + MonPlayer.getFormat().getSampleSizeInBits() + " bits   " + float(int((MonPlayer.length())/100.0)) / 10 + " sec", 20, 50);
   text("P: Play", 100, 80);
   text("S: Stop", 100, 100);
   text("L: Loop", 100, 120);
-  text("esc: Quit", 100, 140);
+  text("R: Loop Random", 100, 140);
+  text("esc: Quit", 100, 160);
   text("library minim: audioplayer", 20, 350);
 }
 
 void keyPressed() {
   if (key == 'p' || key == 'P') {
     if (!MonPlayer.isPlaying()) MonPlayer.rewind();
+    MonPlayer.setLoopPoints(0, MonPlayer.length());
     MonPlayer.play();
   }
   if (key == 's' || key == 'S') MonPlayer.pause();
   if (key == 'l' || key == 'L') MonPlayer.loop();
+  if (key == 'r' || key == 'R') {
+    int hasard1 = int(random(MonPlayer.length()));
+    int hasard2 = int(random(hasard1, MonPlayer.length()));
+    MonPlayer.setLoopPoints(hasard1, hasard2);
+  }
 }
 
 void SliderBalance(int Bal) {
   MonPlayer.setBalance(Bal/100.0);
-  println("Balance = " + Bal);
 }
 
 void SliderPan(int Pano) {
   MonPlayer.setPan(Pano/100.0);
-  println("Pan = " + Pano);
 }
 
 void SliderGain(int G) {
   MonPlayer.setGain(G);
-  println("Gain = " + G);
 }
