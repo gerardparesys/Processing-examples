@@ -1,4 +1,4 @@
-Processing sketch to test "AudioPlayer" of the "Minim" library   
+[Processing](https://processing.org/) sketch to test "AudioPlayer" of the [Minim](http://code.compartmental.net/minim/) library   
 
 ![MinimAudioPlayer1](MinimAudioPlayer1.png)
 
