@@ -1,5 +1,5 @@
 // MinimSampler1.pde
-// 25 11 2020
+// 9 12 2020
 // Gerard Paresys
 // https://github.com/gerardparesys/Processing-examples
 //
@@ -118,7 +118,6 @@ void setup() {
     ;
   Moncp5.getController("SliderAttack").getCaptionLabel().align(ControlP5.LEFT, ControlP5.CENTER).setPaddingX(-80);
   Moncp5.getController("SliderAttack").getValueLabel().align(ControlP5.LEFT, ControlP5.CENTER).setPaddingX(-30);
-  
 }
 
 void draw() {
@@ -133,13 +132,9 @@ void draw() {
   text("R: Loop Random", 100, 140);
   text("esc: Quit", 100, 160);
   text("library minim: Sampler", 20, 350);
-  
-  println("length = " + MonSampler.end.getLastValues());
-  println("attack = " + MonSampler.attack.getLastValues());
-  // audio.getLastValues().length
-    // MonSampler.attack.setLastValue(At/1000.0);
 
-  
+  // audio.getLastValues().length
+  // MonSampler.attack.setLastValue(At/1000.0);
 }
 
 void keyPressed() {
