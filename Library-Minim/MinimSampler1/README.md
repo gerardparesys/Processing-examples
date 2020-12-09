@@ -10,3 +10,4 @@ with library minim
 with library controlP5  
 
 Problem: Know the duration of the Audio file (or the number of samples)  
+To do: setSampleRate(float newSampleRate)  
