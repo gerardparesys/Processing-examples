@@ -3,7 +3,7 @@ The .TextGrid file must be UTF-8 encoded.
 The .TextGrid file was generated with ["Praat"](https://www.fon.hum.uva.nl/praat/).  
 https://www.fon.hum.uva.nl/praat/manual/TextGrid_file_formats.html
 
-Use the "minim" library.
+Use the [Minim](http://code.compartmental.net/minim/) library.
 
 ![Texte alternatif](TextGrid4.png)
 
