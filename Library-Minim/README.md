@@ -6,3 +6,6 @@ A collection of sketches for [Processing](https://processing.org/) + library [Mi
  - MinimAudioSample1  
  - MinimFilePlayer1  
  - MinimSampler1  
+ 
+ [Documentation Minim](https://www.javadoc.io/doc/net.compartmental.code/minim/latest/index.html)  
+ 
