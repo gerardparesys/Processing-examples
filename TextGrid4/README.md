@@ -1,7 +1,7 @@
 Processing sketch which opens a .TextGrid file and displays it in sync with Audio playback.  
 The .TextGrid file must be UTF-8 encoded.  
 The .TextGrid file was generated with ["Praat"](https://www.fon.hum.uva.nl/praat/).  
-https://www.fon.hum.uva.nl/praat/manual/TextGrid_file_formats.html
+[TextGrid_file_formats](https://www.fon.hum.uva.nl/praat/manual/TextGrid_file_formats.html)   
 
 Use the [Minim](http://code.compartmental.net/minim/) library.
 
