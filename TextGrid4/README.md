@@ -7,6 +7,7 @@ Use the [Minim](http://code.compartmental.net/minim/) library.
 
 ![Texte alternatif](TextGrid4.png)
 
+OK Processing 2.2.1 MacOS  
 OK Processing 3.5.4 MacOS  
 OK Processing 3.5.3 Raspberry Pi OS (Raspbian 10 buster)  
 OK Processing 3.5.3 Windows  
