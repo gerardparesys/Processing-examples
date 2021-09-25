@@ -4,12 +4,11 @@
 Play .mp3 audio files placed on the websites:  
 https://paresys.pagesperso-orange.fr/Soundscape/  
 http://gerard.paresys.free.fr/Soundscape/  
-44100Hs 16bits Stereo 192kbps  
-The same files are present on these 2 websites.  
-and on:  
+44100Hz 16bits Stereo 192kbps  
+The same files are present on these 2 websites and on:  
 https://soundcloud.com/gerard-paresys/sets/paresys-field-recording
-
-
+  
+  
 ![MinimFilePlayer2](MinimFilePlayer2.png)
 
 Processing 3.5.4 + MacOS  
