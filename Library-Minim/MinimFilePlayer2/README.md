@@ -17,7 +17,6 @@ Processing 3.5.4 + MacOS
   
 Processing 3.5.3 + Raspberry Pi OS (Raspbian 10 buster)  
  - Pb Site orange.fr: Play stops after 23sec except files <120sec (Aqua1 Calme1 Calme2 Cloche1)  
- - Pb Site orange.fr & files in a data folder: Cannot restart playback of a 2nd file  
   
 Processing 3.5.3 + Windows  
  - OK Site free.fr  
