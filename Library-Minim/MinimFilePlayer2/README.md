@@ -3,7 +3,7 @@
 
 ![MinimFilePlayer2](MinimFilePlayer2.png)
 
-Processing 3.5.4 + MacOS  
+Processing 3.5.4 + MacOS
  - OK Site orange.fr  
  - OK Site free.fr:  
  - OK with the files in a data folder  
