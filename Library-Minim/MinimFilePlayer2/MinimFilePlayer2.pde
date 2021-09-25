@@ -6,7 +6,7 @@
 // Play .mp3 audio files placed on the websites:
 // https://paresys.pagesperso-orange.fr/Soundscape/
 // http://gerard.paresys.free.fr/Soundscape/
-// 44100Hs 16bits Stereo 192kbps 
+// 44100Hz 16bits Stereo 192kbps 
 // The same files are present on these 2 websites.
 // and on:
 // https://soundcloud.com/gerard-paresys/sets/paresys-field-recording
@@ -16,14 +16,14 @@
 //
 // Processing 3.5.4 + MacOS
 //    OK Site orange.fr 
-//    OK Site free.fr: 
+//    OK Site free.fr
 //    OK with the files in a data folder
 // Processing 3.5.3 + Raspberry Pi OS (Raspbian 10 buster)
-//    Pb Site orange.fr: Play s'arrete apres 23sec sauf fichiers < 120sec (Aqua1 Calme1 Calme2 Cloche1)
-//    Pb Site orange.fr & free.fr & files in a data folder: impossible de relancer la lecture d'un 2e fichier
+//    Pb Site orange.fr: Play stops after 23sec except files <120sec (Aqua1 Calme1 Calme2 Cloche1)
+//    Pb Site orange.fr & free.fr & files in a data folder: Cannot restart playback of a 2nd file
 // Processing 3.5.3 + Windows
 //    OK Site free.fr 
-//    Pb Site orange.fr: Play s'arrete apres 20sec sauf fichiers < 120sec (Aqua1 Calme1 Calme2 Cloche1)!
+//    Pb Site orange.fr: Play stops after 20sec except files <120sec (Aqua1 Calme1 Calme2 Cloche1)!
 // Pb Site orange.fr & free.fr: MonFilePlayer.length()   is false;
 // Pb Site orange.fr & free.fr: MonFilePlayer.position() is false;
 //
