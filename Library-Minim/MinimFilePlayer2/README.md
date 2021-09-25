@@ -25,5 +25,3 @@ Processing 3.5.3 + Windows
   
 Pb Site orange.fr & free.fr: MonFilePlayer.length()   is false;  
 Pb Site orange.fr & free.fr: MonFilePlayer.position() is false;  
-  
-with library minim  
