@@ -1,5 +1,14 @@
 [Processing](https://processing.org/) sketch to test ["FilePlayer"](http://code.compartmental.net/minim/fileplayer_class_fileplayer.html) of the [Minim](http://code.compartmental.net/minim/) library   
 "The FilePlayer UGen provides a way for you to play audio files in the same way that AudioPlayer does, allowing you to patch them into a UGen graph any way you choose."  
+  
+Play .mp3 audio files placed on the websites:
+https://paresys.pagesperso-orange.fr/Soundscape/
+http://gerard.paresys.free.fr/Soundscape/
+44100Hs 16bits Stereo 192kbps 
+The same files are present on these 2 websites.
+and on:
+https://soundcloud.com/gerard-paresys/sets/paresys-field-recording
+
 
 ![MinimFilePlayer2](MinimFilePlayer2.png)
 
