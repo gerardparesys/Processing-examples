@@ -15,12 +15,17 @@ Processing 3.5.4 + MacOS
  - OK Site orange.fr  
  - OK with the files in a data folder  
   
+Processing 3.5.3 + Ubuntu 16.04 32bit  
+ - OK Site free.fr  
+ - Pb Site orange.fr: Play stops after 24sec except files <120sec (Aqua1 Calme1 Calme2 Cloche1)  
+ - OK with the files in a data folder  
+  
 Processing 3.5.3 + Raspberry Pi OS (Raspbian 10 buster)  
  - OK Site free.fr  
  - Pb Site orange.fr: Play stops after 24sec except files <120sec (Aqua1 Calme1 Calme2 Cloche1)  
  - OK with the files in a data folder  
  
-Processing 3.5.3 + Windows  
+Processing 3.5.4 + Windows 10 
  - OK Site free.fr  
  - Pb Site orange.fr: Play stops after 20sec except files <120sec (Aqua1 Calme1 Calme2 Cloche1)  
  - OK with the files in a data folder  
