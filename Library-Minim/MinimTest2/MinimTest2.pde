@@ -7,6 +7,8 @@
 // OK Processing 3.5.4 + MacOS
 // OK Processing 3.5.3 + Raspberry Pi OS (Raspbian 10 buster)
 // OK Processing 3.5.3 + Ubuntu
+// OK Processing 3.5.4 + Windows10
+// Not compatible with Processing 2
 // with library minim
 //
 // Open an Audio file
