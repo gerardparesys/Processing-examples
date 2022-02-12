@@ -1,0 +1,196 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 136.9296495591299 
+tiers? <exists> 
+size = 2 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "Traduction" 
+        xmin = 0 
+        xmax = 136.9296495591299 
+        intervals: size = 22 
+        intervals [1]:
+            xmin = 1.7543 
+            xmax = 9.0689 
+            text = "Il y a très longtemps, il y avait une personne dans ces temps anciens, ceux de nos grands-pères d'Afrique." 
+        intervals [2]:
+            xmin = 9.0689 
+            xmax = 11.4655 
+            text = "Et puis." 
+        intervals [3]:
+            xmin = 11.4572 
+            xmax = 19.4745 
+            text = "On est resté resté resté resté resté jusqu'à ce qu'il en vienne à lui dire: Je veux épouser une femme." 
+        intervals [4]:
+            xmin = 19.4745 
+            xmax = 30.0162 
+            text = "Celui-là lui dit: Une femme? Va en France, ou va en Afrique, ou va en Inde, ou va en Arabie, tu trouveras une femme." 
+        intervals [5]:
+            xmin = 30.0162 
+            xmax = 41.945 
+            text = "Celui-là a fait son boutre; c'est fini. Quand la construction de son boutre est finie, alors il dit à sa mère: Moi...je pars." 
+        intervals [6]:
+            xmin = 41.945 
+            xmax = 46.7442 
+            text = "Voilà l'enfant; on lui a préparé ses gâteaux, absolument toutes ses affaires; il est parti." 
+        intervals [7]:
+            xmin = 46.7442 
+            xmax = 57.3969 
+            text = "Son départ. Il est allé jusqu'à ce qu'il soit arrivé en France; il a cherché une femme sans la trouver." 
+        intervals [8]:
+            xmin = 57.3969 
+            xmax = 60.8091 
+            text = "Il est allé en Afrique; il a cherché une femme sans la trouver." 
+        intervals [9]:
+            xmin = 60.8091 
+            xmax = 65.2477 
+            text = "Il est allé à Madagascar; il a cherché une femme sans la trouver." 
+        intervals [10]:
+            xmin = 65.2477 
+            xmax = 68.5766 
+            text = "(Tu connais déjà cela; tu sauras comment l'écrire. " 
+        intervals [11]:
+            xmin = 68.5766 
+            xmax = 75.7339 
+            text = "Tout ce que je dis maintenant, au moment où je le dirai en africain, je t'expliquerai le moment venu, écoute!)." 
+        intervals [12]:
+            xmin = 75.7339 
+            xmax = 83.7511 
+            text = "Il a fini par rentrer. Il est venu... A son retour au village Hajangwa, il est allé trouver le maître qu'on appelle Adango." 
+        intervals [13]:
+            xmin = 83.7511 
+            xmax = 90.201 
+            text = "Il lui a dit: Je veux que tu me donnes un talisman maintenant que j'obtienne une femme." 
+        intervals [14]:
+            xmin = 90.201 
+            xmax = 99.4181 
+            text = "Il lui a répondu: Bon, prends ta hache pour monter dans la forêt Benara pour chercher un arbre jusqu'à ce que tu en trouves un beau et que tu le coupes." 
+        intervals [15]:
+            xmin = 99.4181 
+            xmax = 106.3465 
+            text = "Celui-là est monté, il est allé dans la forêt Benara là-bas, il est allé, il a coupé son arbre, il a vu cet arbre, il l'a coupé." 
+        intervals [16]:
+            xmin = 106.3465 
+            xmax = 110.7158 
+            text = "Il est rentré; il est venu dire au maître: Me voici maître, je suis arrivé." 
+        intervals [17]:
+            xmin = 110.7158 
+            xmax = 119.0382 
+            text = "Le maître lui a dit: Bon, prends ce talisman pour aller le lui mettre, choisis ton endroit où tu couperas pour lui mettre ce talisman." 
+        intervals [18]:
+            xmin = 119.0382 
+            xmax = 127.4647 
+            text = "Celui-là a emporté son talisman; il est allé, il a regardé: Ici c'est juste ce que je veux, je couperai couperai." 
+        intervals [19]:
+            xmin = 127.4646 
+            xmax = 130.5022 
+            text = "Il en sortit une très belle jeune fille. " 
+        intervals [20]:
+            xmin = 130.5022 
+            xmax = 133.7479 
+            text = "Cette jeune fille s'appelle Nikula." 
+        intervals [21]:
+            xmin = 133.7479 
+            xmax = 136.8896 
+            text = "Son nom, on l'appelle Nikula." 
+        intervals [22]:
+            xmin = 136.8897 
+            xmax = 136.9296495591299 
+            text = "Il l'a suppliée jusqu'à ce qu'ils descendent au village." 
+    item [2]:
+        class = "IntervalTier" 
+        name = "Transcription" 
+        xmin = 0 
+        xmax = 136.9296495591299 
+        intervals: size = 22 
+        intervals [1]:
+            xmin = 1.7543 
+            xmax = 9.0689 
+            text = "hale halele, vhuka mutru zama izo woho, mabakoko yatru ya shimurima" 
+        intervals [2]:
+            xmin = 9.0689 
+            xmax = 11.4655 
+            text = "basi" 
+        intervals [3]:
+            xmin = 11.4572 
+            xmax = 19.4745 
+            text = "wabaki wabaki wabaki wabaki wabaki ata aja amwambia amba: nitsaha nilole mutrumushe wangu" 
+        intervals [4]:
+            xmin = 19.4745 
+            xmax = 30.0162 
+            text = "ule amwambia amba: mutrumushe ? endra farantsa, au endra murima, au endra hindi, au endra arabuni, utsopara mutrumushe" 
+        intervals [5]:
+            xmin = 30.0162 
+            xmax = 41.945 
+            text = "ule afanya djahazi yahe, ihisa, ufanya yahe djahazi yahe ihisa aja amwambia mayahe amba: wami...tsami nisulawa" 
+        intervals [6]:
+            xmin = 41.945 
+            xmax = 46.7442 
+            text = "tsiwo umwana arengeledzewa mihare zahe, trongo zahe zontsi pia, alawa" 
+        intervals [7]:
+            xmin = 46.7442 
+            xmax = 57.3969 
+            text = "ulawa yahe, andre ata awaswili farantsa; azunguha mutrumushe ata kampara" 
+        intervals [8]:
+            xmin = 57.3969 
+            xmax = 60.8091 
+            text = "andre murima, azunguha mutrumushe ata kampara" 
+        intervals [9]:
+            xmin = 60.8091 
+            xmax = 65.2477 
+            text = "andre bushini, azunguha mutrumushe ata kampara" 
+        intervals [10]:
+            xmin = 65.2477 
+            xmax = 68.5766 
+            text = "madza usijua iyo; utsojua uiangihe" 
+        intervals [11]:
+            xmin = 68.5766 
+            xmax = 75.7339 
+            text = "kula niirongoao vhavho lera nitsoirongoa shimurima woho ɗe nitsohambiao imana, kia ! aha basi" 
+        intervals [12]:
+            xmin = 75.7339 
+            xmax = 83.7511 
+            text = "aja arudi, aja...urudi yahe ɗagoni hajangwa aja amupara fundi ahirwao adango" 
+        intervals [13]:
+            xmin = 83.7511 
+            xmax = 90.201 
+            text = "amwambia amba: nitsaha unimbe ilimu vhanu nipare mutrumushe wangu" 
+        intervals [14]:
+            xmin = 90.201 
+            xmax = 99.4181 
+            text = "amwambia: basi, renga lisoha laho uheye shitsahani benara ungalie mwiri ata upare amba uwo muzuri uukatre" 
+        intervals [15]:
+            xmin = 99.4181 
+            xmax = 106.3465 
+            text = "ule aheya, andre shitsahani benara hule andre akatra mwiri wahe, auono mwiri ule aukatra" 
+        intervals [16]:
+            xmin = 106.3465 
+            xmax = 110.7158 
+            text = "arudi aja amwambia fundi: tsami fundi tsiwaswili" 
+        intervals [17]:
+            xmin = 110.7158 
+            xmax = 119.0382 
+            text = "fundi amwambia: basi renga hirizi inu, wendre wamutrie ungalie vhahanu haho utsokutruao vhale umutrie hirizi ile" 
+        intervals [18]:
+            xmin = 119.0382 
+            xmax = 127.4647 
+            text = "ule avhingi hirizi yahe andre angalia: vhanu ɗe kiasi nitsahao, nitsokutrua kutrua" 
+        intervals [19]:
+            xmin = 127.4646 
+            xmax = 130.5022 
+            text = "vhulawa pumba la mwana mutrumama" 
+        intervals [20]:
+            xmin = 130.5022 
+            xmax = 133.7479 
+            text = "mwana mutrumama ule uhiriwa nikula" 
+        intervals [21]:
+            xmin = 133.7479 
+            xmax = 136.8896 
+            text = "dzina lahe uhiriwa nikula" 
+        intervals [22]:
+            xmin = 136.8897 
+            xmax = 136.9296495591299 
+            text = "basi, amurai ata washuku ɗagoni" 
